@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>&lt;no title&gt; &mdash; PROSPECT Documentation</title>
+  <title>Installation &mdash; PROSPECT Documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=dff21c97" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
@@ -27,6 +27,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Examples" href="examples/examples.html" />
     <link rel="prev" title="PROSPECT documentation" href="index.html" /> 
 </head>
 
@@ -49,10 +50,11 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <!-- Local TOC -->
-              <div class="local-toc"><ul class="simple">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/examples.html">Examples</a></li>
 </ul>
-</div>
+
         </div>
       </div>
     </nav>
@@ -67,25 +69,43 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">&lt;no title&gt;</li>
+      <li class="breadcrumb-item active">Installation</li>
       <li class="wy-breadcrumbs-aside">
               <a href="https://github.com///blob/installation.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul><div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Sequential page navigation">
         <a href="index.html" class="btn btn-neutral float-left" title="PROSPECT documentation" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="examples/examples.html" class="btn btn-neutral float-right" title="Examples" accesskey="n">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
   </div>
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <p>Hi from installation.</p>
+  <section id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Link to this heading"></a></h1>
+<p>Hi from installation.</p>
+<p>## How to install:</p>
+<p>` pip install . `</p>
+<p>If developing the code, remember to install in editor mode:</p>
+<p>` pip install -e . `</p>
+<p>This will propagate your changes to the source code without need for reinstalling.</p>
+<p>## How to run:</p>
+<p>PROSPECT runs either from an input yaml file or from a folder made by a previous run of PROSPECT. It will detect on its own what type of input is given.</p>
+<p>Additionally, PROSPECT can be run either from the command line or interactively in Python.</p>
+<p>To run from the command line:</p>
+<p>` prospect input/debug.yaml `</p>
+<p>To run from inside a Python script:</p>
+<p>` from prospect.run import run; run(input) `</p>
+<p>where <cite>input</cite> is a string pointing to either the yaml input file or an output folder of a previous PROSPECT run.</p>
+</section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="index.html" class="btn btn-neutral float-left" title="PROSPECT documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="examples/examples.html" class="btn btn-neutral float-right" title="Examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
