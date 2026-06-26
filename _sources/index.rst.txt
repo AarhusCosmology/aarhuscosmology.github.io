@@ -1,42 +1,49 @@
-.. role:: raw-html(raw)
-   :format: html
+Aarhus Cosmology
+================
 
-.. role:: bolditalic
-   :class: bolditalic
+Welcome to the documentation and web tools maintained by the Aarhus Cosmology
+group at Aarhus University. This page is the starting point for our public
+software projects, reference documentation, and interactive tools.
 
+Our `GitHub organisation <https://github.com/AarhusCosmology>`_ hosts the
+source code and issue trackers for these projects.
 
-
-AarhusCosmology documentation
-=====================
+Documentation
+-------------
 
 .. raw:: html
 
-   <table class="docutils field-list" style="font-size:120%">
-   <col class="field-name" />
-   <col class="field-body" />
-   <tbody valign="top">
-   <tr><td class="field-name"><b>GitHub</b></td><td class="field-body"><a class="reference external" href="https://github.com/AarhusCosmology">https://github.com/AarhusCosmology</a>&emsp;</td></tr>
-   <tr><td class="field-name"><b>Author</b></td><td class="field-body">Emil Brinch Holm, Aarhus University&emsp;<a class="reference external" href="mailto:ebholm&#37;&#52;&#48;phys&#46;au&#46;dk">ebholm<span>&#64;</span>phys<span>&#46;</span>au<span>&#46;</span>dk</a></td></tr>
-   </tbody>
-   </table>
+   <div class="resource-grid">
+     <a class="resource-card" href="https://aarhuscosmology.github.io/prospect/">
+       <span class="resource-type">Inference framework</span>
+       <strong>PROSPECT</strong>
+       <span>A framework for cosmological parameter inference.</span>
+       <span class="resource-link">Open documentation <span aria-hidden="true">&#8594;</span></span>
+     </a>
+     <a class="resource-card" href="https://aarhuscosmology.github.io/connect_public/">
+       <span class="resource-type">Cosmology code</span>
+       <strong>CONNECT</strong>
+       <span>Documentation for CONNECT and its cosmological inference tools.</span>
+       <span class="resource-link">Open documentation <span aria-hidden="true">&#8594;</span></span>
+     </a>
+     <a class="resource-card" href="https://aarhuscosmology.github.io/CLASSpp">
+       <span class="resource-type">Coming soon</span>
+       <strong>CLASS++</strong>
+       <span>Documentation for the forthcoming C++ implementation of CLASS.</span>
+       <span class="resource-link">Visit documentation <span aria-hidden="true">&#8594;</span></span>
+     </a>
+   </div>
 
-:raw-html:`<font size="+1">This is main page of the documentation of codes written by AarhusCosmology, the cosmology group at Aarhus University, Denmark.</font>`
+Web tools
+---------
 
-
-
-Documentations
-------------
 .. raw:: html
 
-   <table class="docutils field-list" style="font-size:120%">
-   <col class="field-name" />
-   <col class="field-body" />
-   <tbody valign="top">
-   <tr><td class="field-name"><b>PROSPECT:</b></td><td class="field-body"><a class="reference external" href="https://aarhuscosmology.github.io/prospect/index.html">https://aarhuscosmology.github.io/prospect/index.html</a>&emsp;</td></tr>
-   </tbody>
-   </table>
-
-.. toctree::
-   :maxdepth: 2
-
-   prospect/index
+   <div class="resource-grid resource-grid-tools">
+     <a class="resource-card" href="https://aarhuscosmology.github.io/CosmoSliderWeb/">
+       <span class="resource-type">Interactive explorer</span>
+       <strong>CosmoSliderWeb</strong>
+       <span>Explore how cosmological parameters shape observable predictions.</span>
+       <span class="resource-link">Launch web tool <span aria-hidden="true">&#8594;</span></span>
+     </a>
+   </div>

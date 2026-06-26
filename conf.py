@@ -1,6 +1,6 @@
 # Project
-project  = 'PROSPECT'
-author   = 'Emil Brinch Holm'
+project  = 'Aarhus Cosmology'
+author   = 'Aarhus Cosmology'
 language = 'en'  # English
 
 # Paths
@@ -22,7 +22,6 @@ sphinx_tabs_disable_tab_closing = True
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     # General
-    'display_version'           : False,
     'logo_only'                 : False,
     'prev_next_buttons_location': 'both',
     'style_external_links'      : True,
@@ -67,8 +66,14 @@ copybutton_prompt_text = r'>>> |\$ '
 copybutton_prompt_is_regexp = True
 
 # HTML
-html_baseurl           = 'https://AarhusCosmology.github.io/prospect/'
-html_context           = {'display_github': True}
+html_baseurl           = 'https://aarhuscosmology.github.io/'
+html_context = {
+    'display_github': True,
+    'github_user': 'AarhusCosmology',
+    'github_repo': 'aarhuscosmology.github.io',
+    'github_version': 'main',
+    'conf_py_path': '/',
+}
 # html_favicon           = html_static_path[0] + '/favicon.ico'
 html_last_updated_fmt  = None
 # html_logo              = html_static_path[0] + '/logo.png'
@@ -76,4 +81,4 @@ html_scaled_image_link = False
 html_show_copyright    = False
 html_show_sourcelink   = False
 html_show_sphinx       = False
-html_title             = 'PROSPECT Documentation'
+html_title             = 'Aarhus Cosmology: Documentation & Tools'
